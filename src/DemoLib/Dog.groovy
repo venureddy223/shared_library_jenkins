@@ -9,7 +9,7 @@ class Dog{
     }
 
     def speak(){
-        echo "${name} says bow!"
+        return "${name} says bow!"
     }
 
 }
