@@ -1,10 +1,10 @@
 #!groovy
 package DemoLib
 
-class Cat {
+class kit {
     String name 
 
-    Cat(String name) {
+    kit(String name) {
         this.name = name
     }
 
