@@ -3,10 +3,10 @@ package DemoLib
 
 class speak {
     def dog(){
-        println "i am dog"
+        return "i am dog"
     }
 
     def cat() {
-        println "i am cat"
+        return "i am cat"
     }
 }
