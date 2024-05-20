@@ -1,14 +1,15 @@
 #!groovy
 package DemoLib
 
-class Demo {
+class Demo{
     String name
-    Demo(String name) {
+
+    Demo(String name){
         this.name = name
     }
 
-    def somefuntion(){
-        return "name is ${name}"
+    def speak(){
+        return "${name} says bow!"
     }
-    
+
 }
