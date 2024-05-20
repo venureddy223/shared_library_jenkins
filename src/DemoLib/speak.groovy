@@ -1,7 +1,7 @@
 #!groovy
 package DemoLib
 
-class animalSound {
+class speak {
     def dog(){
         echo "i am dog"
     }
