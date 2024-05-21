@@ -4,7 +4,7 @@ package DemoLib
 import java.util.concurrent.ThreadLocalRandom
 
 class randomNumberGenerator{
-    int randomNumberGenerator(min, max) {
+    def generateRandomNumber(5, 50) {
         return ThreadLocalRandom.current().nextInt(min,max+1)
     }
 }
